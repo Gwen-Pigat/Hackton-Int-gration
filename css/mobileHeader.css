@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/***********/
+/* HEADER */
+/*********/
+
+@font-face{
+	font-family: "gro";
+	src: url("../font/GrooveNext.ttf");
+}
+@font-face{
+	font-family: "gravity";
+	src: url("../font/Gravity-Book.ttf");
+}
+@font-face{
+	font-family: "gravity-light";
+	src: url("../font/Gravity-Light.ttf");
+}
+
+.banniere{
+	width: 100%;
+	height: 140px;
+	background-color: #ffffff;
+	border-bottom: 40px solid #FF2D16;
+}
+
+.img-marker{
+	width: 15%;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+.region{
+	color: #85868A;
+	font-family: "gro";
+	font-size: 28px;
+	margin-top: -15%;
+	margin-left: 20%;
+}
+
+.slogan{
+	color: #64666B;
+	font-family: "gravity-light";
+	font-size: 10px;
+	margin-top: -11%;
+	margin-left: 50%;
+}
+
+button{
+	display: inline-block;
+	font-family: "gravity";
+	font-size: 10px;
+	width: 20%;
+	height: 20px;
+	border-radius: 0;
+	border: 0;
+	background-color: #76777C;
+	color: #FFFFFF;
+	text-align: center;
+	float: right;
+	margin-top: -18%;
+	cursor: pointer;
+}
+
+/******************/
+/* IMG CONTAINER */
+/****************/
+
+.img-container{
+	display: none;
+}
+
+/***********/
+/* NAVBAR */
+/*********/
+
+.navbar{
+	background-color: #F20603;
+	margin-top: -32.4%;
+}
+
+.navbar img{
+	padding: 0;
+	margin-top: 6%;
+	width: 25%;
+	height: 80px;
+	margin-left: 16%;
+}
+
+.menu:hover{
+	cursor: pointer;
+}

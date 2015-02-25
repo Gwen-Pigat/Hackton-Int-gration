@@ -1,16 +1,16 @@
 <html>
 <head>
   <title>Hackton Intégration</title>
-  <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="css/footer.css">
-  <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobile.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="css/Footer.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobileIntegration.css">
   <meta charset="utf-8">
 </head>
 <body>
 
 <div class="white">
 
-<p>SUIVEZ-NOUS </p>
-<img src="img/social-icons.png">
+<p>SUIVEZ-NOUS<img src="img/social-icons.png"> </p>
+
 
 <p class="green">CONTACT</p>
 </div>

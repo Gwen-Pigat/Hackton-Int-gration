@@ -2,6 +2,7 @@ body{
 	font-family: "grav";
 	color: #EFEFCE;
 	word-spacing: 3px;
+	position: fixed;
 }
 
 .white{
@@ -10,40 +11,40 @@ body{
 	font-size: 30px;
 	font-family: "grav";
 	margin-top: 8%;
-	margin-bottom: -32.5%;
+	margin-bottom: -32%;
 }
 
 .white .green{
 	text-align: left;
 	color: #2C592C;
-	margin-top: -0.4%;
+	margin-top: -4%;
 	margin-left: 13%;
 }
-
 .white p{
 	margin-left: 5%;
-	font-size: 15px;
+	font-size: 12px;
+	margin-top: -3%;
 }
 
 .white img{
-	width: 55%;
-	margin-top: -15%;
-	margin-left: 43%;
+	width: 50%;
+	margin-top: -35%;
+	margin-left: 40%;
 	position: relative;
 }
 
 .mail{
 	float: right;
 	position: absolute;
-	margin-left: 84%;
-	margin-top: 25.7%;
+	margin-left: 86.5%;
+	margin-top: 26%;
 	width: 4%;
 	z-index: 3;
 }
 
 @font-face{
 	font-family: "groove";
-	src: url("../font/GrooveNext-.ttf.ttf");
+	src: url("../font/GrooveNext.ttf.ttf");
 }
 
 @font-face{
@@ -54,9 +55,9 @@ body{
 .logo img{
 	float: left;
 	position: fixed;
-	margin-left: 5%;
-	margin-top: 16%;
-	width: 25%;
+	margin-left: 8%;
+	margin-top: 17%;
+	width: 20%;
 }
 
 .contact{
@@ -65,7 +66,7 @@ body{
 	padding-left: 1.4%;
 	float: right;
 	position: fixed;
-	margin-left: 83.4%;
+	margin-left: 86%;
 	margin-top: 25%;
 	width: 16%;
 }
@@ -86,7 +87,7 @@ body{
 .bloc1{
 	font-size: 5px;
 	margin-left: 33%;
-	margin-top: 20%;
+	margin-top: 18%;
 	position: fixed;
 }
 
@@ -104,6 +105,7 @@ body{
 .bloc1 p{
 	margin-top: -4%;
 	font-family: groove;
+	font-size: 6px;
 }
 
 .bloc2 p{

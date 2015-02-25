@@ -2,7 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="integration.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="css/integration.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobileHeader.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobileIntegration.css">
 	<title>Hackathon intégration</title>
 </head>
 <body>
@@ -21,7 +23,11 @@
 		<a href="#"><img class="menu projet" src="img/projet.png"></img></a>
 		<a href="#"><img class="menu sondage" src="img/sondage.png"></img></a>
 		<a href="#"><img class="menu actu" src="img/actu.png"></img></a>
-		<a href="#"><img class="question" src="img/question.png"></img></a>
+		<a href="#"><img class="menu question" src="img/question.png"></img></a>
 	</div>
+
+<?php include("Footer.php"); ?>
+
+
 </body>
 </html>
