@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="integration.css">
+	<link rel="stylesheet" type="text/css" href="css/integration.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="css/mobile.css">
 	<title>Hackathon intégration</title>
 </head>
 <body>
@@ -14,6 +15,7 @@
 			<a href="#"><button>Connexion</button></a>
 		</div>
 	</header>
+
 	<div class="img-container">
 		<img class="img-map" src="img/bras.png"></img>
 	</div>
@@ -23,5 +25,8 @@
 		<a href="#"><img class="menu actu" src="img/actu.png"></img></a>
 		<a href="#"><img class="question" src="img/question.png"></img></a>
 	</div>
+	
+	<?php include("Footer.php"); ?>
+	
 </body>
 </html>
