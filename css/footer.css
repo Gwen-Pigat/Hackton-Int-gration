@@ -4,6 +4,32 @@ body{
 	word-spacing: 3px;
 }
 
+.white{
+	height: 150px;
+	color: black;
+	font-size: 30px;
+	font-family: "grav";
+	margin-top: 5%;
+	margin-bottom: -2.5%;
+}
+
+.white .green{
+	text-align: left;
+	color: #2C592C;
+	margin-top: 2.4%;
+}
+
+.white p{
+	margin-left: 5%;
+}
+
+.white img{
+	width: 35%;
+	margin-top: -7.5%;
+	margin-left: 23%;
+	position: relative;
+}
+
 .mail{
 	float: right;
 	position: absolute;
