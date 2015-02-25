@@ -15,12 +15,12 @@ body{
 
 @font-face{
 	font-family: "groove";
-	src: url("../GrooveNext-.ttf.ttf");
+	src: url("../font/GrooveNext-.ttf.ttf");
 }
 
 @font-face{
 	font-family: "grav";
-	src: url("../Gravity-Bold.ttf");
+	src: url("../font/Gravity-Bold.ttf");
 }
 
 .logo{
